@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Doto:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Tiny5&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans Condensed";
+}
+.container {
+  max-width: 1990px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+input {
+  padding-left: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: darkgray;
+  color: black;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:active {
+    background-color: lightgray;
+    color: white;
+  }
+}
+.del-btn {
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(86, 43, 43);
+  &:active {
+    background-color: darkred;
+
+    color: white;
+  }
+}
+.edit-btn {
+  background-color: darkgreen;
+  border-radius: 15px;
+  color: white;
+  &:active {
+    background-color: darkolivegreen;
+
+    color: white;
+  }
+}
+.td-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
